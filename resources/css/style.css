@@ -17,7 +17,20 @@ html {
 /* ---------------------------------------- */
 
 .row {
-  max-width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 1%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 h1 {
@@ -25,10 +38,30 @@ h1 {
   color: white;
   margin-bottom: 70px;
   font-size: 200%;
-  font-weight: 300;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 3px;
+  word-spacing: 4px;
+}
+
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 110%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2::after {
+  display: block;
+  height: 2px;
+  background-color: #f39c12;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 /* BUTTONS */
@@ -52,6 +85,27 @@ h1 {
   background-color: #f39c12;
 }
 
+/* PARAGRAPHS */
+.long-copy {
+  line-height: 145%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box p {
+  font-weight: 300;
+  font-size: 90%;
+  line-height: 145%;
+}
+
+/* ICONS */
+.icon-big {
+  font-size: 350%;
+  display: block;
+  color: #f39c12;
+  margin: 10px 0;
+}
+
 /* ---------------------------------------- */
 /* HEADER */
 /* ---------------------------------------- */
@@ -62,6 +116,7 @@ header {
   height: 100vh;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 
 .text-box {
@@ -102,4 +157,8 @@ header {
   border: 1px solid white;
   border-radius: 180px;
   padding: 10px;
+}
+
+section {
+  margin: 80px 0;
 }
