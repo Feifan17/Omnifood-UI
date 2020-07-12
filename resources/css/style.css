@@ -25,6 +25,11 @@ html {
   padding: 1%;
 }
 
+section {
+  margin: 80px 0;
+  width: 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -159,6 +164,50 @@ header {
   padding: 10px;
 }
 
-section {
-  margin: 80px 0;
+/* ---------------------------------------- */
+/* FEATURES */
+/* ---------------------------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 50px;
+}
+
+/* ---------------------------------------- */
+/* MEALS */
+/* ---------------------------------------- */
+
+.section-meals {
+  padding: 0;
+  width: 100%;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0.7;
+}
+
+.meal-photo img:hover {
+  transform: scale(1.03);
+  opacity: 1;
 }
