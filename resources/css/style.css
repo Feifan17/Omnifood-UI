@@ -179,6 +179,7 @@ header {
 .section-meals {
   padding: 0;
   width: 100%;
+  overflow: hidden;
 }
 
 .meals-showcase {
@@ -210,4 +211,49 @@ header {
 .meal-photo img:hover {
   transform: scale(1.03);
   opacity: 1;
+}
+
+/* ---------------------------------------- */
+/* HOW IT WORKS */
+/* ---------------------------------------- */
+
+.section-steps .row:last-child .col:first-child {
+  text-align: center;
+}
+
+.section-steps .row h2 {
+  margin-top: 80px;
+}
+
+.app-screen {
+  width: 50%;
+}
+
+.step {
+  margin: 25px 0;
+}
+
+.step p {
+  font-weight: 300;
+  font-size: 90%;
+}
+
+.step div {
+  color: #f39c12;
+  font-size: 150%;
+  margin: 10px 0;
+  border-radius: 50%;
+  border: 1px solid #3498db;
+  padding: 5px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.btn-app img {
+  margin-top: 10px;
+  margin-right: 40px;
+  width: auto;
+  height: 50px;
 }
