@@ -258,7 +258,7 @@ header {
 
 .btn-app img {
   margin-top: 10px;
-  margin-right: 40px;
+  margin-right: 30px;
   width: auto;
   height: 50px;
 }
@@ -282,4 +282,38 @@ header {
 
 .section-cities .city-feature:last-child .icon-small {
   color: #3498db;
+}
+
+/* ---------------------------------------- */
+/* TESTIMONIALS */
+/* ---------------------------------------- */
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/back-customers.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding: 40px;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 140%;
+  word-spacing: 110%;
+}
+
+cite {
+  font-size: 90%;
+  display: block;
+  margin-top: 25px;
+}
+
+cite img {
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #3498db;
+  vertical-align: middle;
+  margin-right: 10px;
 }
