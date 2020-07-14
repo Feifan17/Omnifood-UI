@@ -111,6 +111,11 @@ h2::after {
   margin: 10px 0;
 }
 
+.icon-small {
+  color: #f39c12;
+  margin-right: 5px;
+}
+
 /* ---------------------------------------- */
 /* HEADER */
 /* ---------------------------------------- */
@@ -256,4 +261,25 @@ header {
   margin-right: 40px;
   width: auto;
   height: 50px;
+}
+
+/* ---------------------------------------- */
+/* CITIES */
+/* ---------------------------------------- */
+
+.section-cities {
+  width: 100%;
+}
+
+.section-cities img {
+  width: 100%;
+}
+
+.city-feature {
+  margin: 10px 0;
+  font-weight: 300;
+}
+
+.section-cities .city-feature:last-child .icon-small {
+  color: #3498db;
 }
